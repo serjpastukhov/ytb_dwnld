@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+ytb_dwnld_env/
 build/
 develop-eggs/
 dist/
