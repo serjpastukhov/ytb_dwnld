@@ -1,4 +1,4 @@
-from pytube import Playlist
+from pytube import Playlist, YouTube
 import os
 
 DWNNLD_PATH = 'C:\\Users\\pastu\\from_youtube'
@@ -53,3 +53,7 @@ for playlist in playlists:
         else:
             print('Dowloading {}'.format(title))
             video.streams.filter().get_highest_resolution().download(folder_path)
+
+# video = YouTube('https://www.youtube.com/watch?v=sls-ObNEyds')
+# title = video.title
+# video.streams.filter().get_highest_resolution().download(DWNNLD_PATH)
